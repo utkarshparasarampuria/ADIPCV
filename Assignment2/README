@@ -1,0 +1,15 @@
+-To run the python script, these dependencies need to be installed:
+1. opencv-python
+2. Pillow (fork of PIL)
+3. numpy
+4. Tkinter (for GUI)
+
+-The variable filename is the only variable that needs to be changed for testing the script.
+Default is "Palace1.jpg"
+
+-The points are to be chosen in clockwise manner starting from top left point.
+
+-Some sample outputs where image patches are transformed and pasted are included.
+
+-I had tried solving the homography myself but it was buggy, so I finally used the in built
+opencv implementation for the same
